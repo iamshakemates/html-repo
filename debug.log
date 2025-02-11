@@ -1,0 +1,2 @@
+[4652:1372:0210/161258.626:VERBOSE1:installer.cc(429)] "C:\Users\COLLABERA.DIGITAL\Downloads\ChromeSetup.exe" --install=appguid={8A69D345-D564-463C-AFF1-A69D9E530F96}&iid={F61BC119-5704-0011-730C-E84B65FBA7C3}&lang=en&browser=5&usagestats=1&appname=Google%20Chrome&needsadmin=prefers&ap=x64-statsdef_1&brand=JJTC&installdataindex=empty --enable-logging --vmodule=*/components/winhttp/*=1,*/components/update_client/*=2,*/chrome/enterprise_companion/*=2,*/chrome/updater/*=2
+[4652:1372:0210/163210.727:VERBOSE1:installer.cc(541)] Metainstaller WMain returning: 3
