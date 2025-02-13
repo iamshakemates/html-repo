@@ -8,7 +8,7 @@
      <link rel="shortut icon" href="./favicon.svg" type="image/svg+xml">
 
      <!-- custom css link -->
-      <link rel="stylesheet" href="./assets/css/style.\css">
+      <link rel="stylesheet" href="./assets/css/styles.css">
 
       <!-- google font link -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,12 +26,84 @@
   <header class="header" data-header>
     <div class="container">
         <h1>
-            <a href="" class="logo">Transportion</a>
+            <a href="#" class="logo">Transportion</a>
         </h1>
 
         <nav class="navbar" data-navbar>
-            <div class="navbar-top"></div>
+            
+          <div class="navbar-top">
+            <a href="#" class="logo">Transporation</a>
+
+            <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link">
+                <span>Home</span>
+
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link">
+                <span>About</span>
+
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#service" class="navbar-link">
+                <span>Service</span>
+
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link">
+                <span>Blog</span>
+
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link">
+                <span>Contact</span>
+
+                <ion-icon name="chevron-forward"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
         </nav>
+
+        <div class="header-contact">
+
+          <div>
+            <p class="contact-label">Free call in PHP</p>
+
+            <a href="tel: 09-123-456-789" class="contact-number">tel: 09-123-456-789</a>
+          </div>
+
+          <div class="contact-icon">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+        </div>
+
+        <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
     </div>
   </header>
     

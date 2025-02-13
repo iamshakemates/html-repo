@@ -1,4 +1,4 @@
-/* custom property */
+/*#CUSTOM PROPERTY*/
 
 :root{
     /* 
@@ -133,3 +133,10 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {background-color: hsl(0, 0%, 70%);}
+
+
+
+/*#HEADER*/
+.navbar,
+.header-contact,
+.overlay { display: none;}
